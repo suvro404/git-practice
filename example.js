@@ -5,12 +5,12 @@ let count = document.getElementById('count')
 let animCheck = document.getElementById('animation-checkbox')
 
 function add() {
-  count.innerHTML = Number(count.innerHTML) + 1
+  count.innerHTML = Number(count.innerHTML) + 2
   animate()
 }
 
 function remove() {
-  count.innerHTML = Number(count.innerHTML) - 1
+  count.innerHTML = Number(count.innerHTML) - 2
   animate()
 }
 
