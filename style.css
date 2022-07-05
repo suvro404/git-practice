@@ -1,8 +1,11 @@
 h1 {
   color: blue
 }
-
-.btn-container {
+#btn-container, #checkbox-container {
   display: flex;
   flex-direction: row;
+  margin: 4px auto;
+}
+button {
+  margin: 4px 4px 4px 0;
 }
