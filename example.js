@@ -16,7 +16,6 @@ function remove() {
 
 function animate() {
   if(animCheck.checked) {
-    console.log("animation : ", animCheck.checked)
     count.style.fontSize = 'x-small'
     let animTimeout = setTimeout(function() {
       if(animTimeout) {
