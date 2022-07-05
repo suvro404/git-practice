@@ -23,6 +23,14 @@ function animate() {
         clearTimeout(animTimeout)
       }
       count.style.fontSize = 'x-large'
+      let countNum = Number(count.innerHTML)
+      if(countNum > 0) {
+        count.style.color = "green"
+      } else if (countNum < 0) {
+        count.style.color = "red"
+      } else {
+        count.style.color = "black"
+      }
     }, 300)
   }
 }
