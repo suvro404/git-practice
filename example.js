@@ -14,11 +14,6 @@ function remove() {
   animate()
 }
 
-function divide() {
-  count.innerHTML = Number(count.innerHTML) / Number(count.innerHTML)
-  animate()
-}
-
 function animate() {
   if(animCheck.checked) {
     count.style.fontSize = 'x-small'
