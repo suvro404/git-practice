@@ -2,6 +2,8 @@ let addBtn = document.getElementById('add-btn')
 let removeBtn = document.getElementById('remove-btn')
 let count = document.getElementById('count')
 
+// simple comment in remote js file
+
 let animCheck = document.getElementById('animation-checkbox')
 
 function add() {
